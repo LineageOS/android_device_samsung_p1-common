@@ -878,6 +878,8 @@ const char *AudioHardware::getOutputRouteFromDevice(uint32_t device)
     case AudioSystem::DEVICE_OUT_BLUETOOTH_SCO_HEADSET:
     case AudioSystem::DEVICE_OUT_BLUETOOTH_SCO_CARKIT:
         return "BT";
+    case AudioSystem::DEVICE_OUT_AUX_DIGITAL:
+        return "TV_OUT";
     default:
         return "OFF";
     }
