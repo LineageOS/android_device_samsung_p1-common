@@ -22,4 +22,8 @@
     <string name="capacitive_buttons_title">Disable capacitive buttons</string>
     <string name="capacitive_buttons_summary">Disable hard capacitive button lights and touches (Including notifications)</string>
 
+    <string name="category_screen_title">Screen</string>
+    <string name="mdnie_title_head">mDNIe Mode</string>
+    <string name="mdnie_summary_head">Adjust mDNIe display post-processing</string>
+
 </resources>

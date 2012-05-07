@@ -48,4 +48,15 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/category_screen_title">
+        <ListPreference
+            android:key="mdnie"
+            android:title="@string/mdnie_title_head"
+            android:summary="@string/mdnie_summary_head"
+            android:entries="@array/mdnie_entries"
+            android:entryValues="@array/mdnie_entries_values"
+            android:defaultValue="6" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -18,6 +18,7 @@ import java.io.IOException;
 
 public class DeviceSettings extends PreferenceActivity  {
 
+    public static final String KEY_MDNIE = "mdnie";
     public static final String KEY_HSPA = "hspa";
     public static final String KEY_TVOUT_ENABLE = "tvout_enable";
     public static final String KEY_TVOUT_SYSTEM = "tvout_system";
@@ -32,6 +33,7 @@ public class DeviceSettings extends PreferenceActivity  {
     public static final String BUTTONS_ENABLED_COMMAND =
             " > /sys/devices/platform/s3c2440-i2c.2/i2c-2/2-004a/buttons_enabled";
 
+    private ListPreference mMdnie;
     private ListPreference mHspa;
     private CheckBoxPreference mTvOutEnable;
     private CheckBoxPreference mHDMIEnable;
@@ -62,6 +64,10 @@ public class DeviceSettings extends PreferenceActivity  {
         me = this;
         
         PreferenceScreen prefSet = getPreferenceScreen();
+
+        mMdnie = (ListPreference) findPreference(KEY_MDNIE);
+        mMdnie.setEnabled(Mdnie.isSupported());
+        mMdnie.setOnPreferenceChangeListener(new Mdnie());
 
         mHspa = (ListPreference) findPreference(KEY_HSPA);
         mHspa.setEnabled(Hspa.isSupported());

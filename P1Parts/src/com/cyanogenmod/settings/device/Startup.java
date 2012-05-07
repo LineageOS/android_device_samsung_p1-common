@@ -14,6 +14,9 @@ public class Startup extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, final Intent bootintent) {
+
+        Mdnie.restore(context);
+
         Hspa.restore(context);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
