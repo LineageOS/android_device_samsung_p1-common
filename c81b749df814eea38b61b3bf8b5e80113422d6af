@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAS3//9Q0\u003d",
+        "filename": "P1Parts/res/values-pt/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 2751
+      },
+      "writtenOn": "2012-05-19T10:18:06Z",
+      "side": 1,
+      "message": "Ajuste o padrão de saída para TV",
+      "revId": "c81b749df814eea38b61b3bf8b5e80113422d6af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//9Qw\u003d",
+        "filename": "P1Parts/res/values-pt/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2751
+      },
+      "writtenOn": "2012-05-19T10:18:06Z",
+      "side": 1,
+      "message": "Encaixe HDMI conectado, selecione para ativar",
+      "revId": "c81b749df814eea38b61b3bf8b5e80113422d6af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//9Qs\u003d",
+        "filename": "P1Parts/res/values-pt/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2751
+      },
+      "writtenOn": "2012-05-19T10:18:06Z",
+      "side": 1,
+      "message": "Encaixe HDMI ativado",
+      "revId": "c81b749df814eea38b61b3bf8b5e80113422d6af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//9Qo\u003d",
+        "filename": "P1Parts/res/values-pt/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2751
+      },
+      "writtenOn": "2012-05-19T10:18:06Z",
+      "side": 1,
+      "message": "Desativar luzes e funções de toque dos botões (incluindo notificações)",
+      "revId": "c81b749df814eea38b61b3bf8b5e80113422d6af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
