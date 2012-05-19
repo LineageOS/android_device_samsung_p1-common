@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAS3//9RM\u003d",
+        "filename": "P1Parts/res/values-pt/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2751
+      },
+      "writtenOn": "2012-05-19T09:50:51Z",
+      "side": 1,
+      "message": "\"Acionar\"\n\nIMO, it will be better.\n\n\"Encaixe HDMI está conectado, selecione para ativar.",
+      "revId": "01c2521f302423f97a6731da96c875fc0530faec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
