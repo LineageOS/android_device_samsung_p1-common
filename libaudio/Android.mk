@@ -1,5 +1,6 @@
 LOCAL_PATH:= $(call my-dir)
 
+ifeq ($(TARGET_BOARD_SAMSUNG_P1),true)
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES:= \
 	AudioHardware.cpp
@@ -39,3 +40,4 @@ ifeq ($(BOARD_HAVE_BLUETOOTH),true)
 endif
 
 include $(BUILD_SHARED_LIBRARY)
+endif
