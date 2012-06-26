@@ -29,7 +29,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
-ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
@@ -76,6 +75,9 @@ USE_OPENGL_RENDERER := true
 
 # skia
 BOARD_USE_SKIA_LCDTEXT := true
+
+# Enable WebGL
+ENABLE_WEBGL := true
 
 # Device related defines
 BOARD_NAND_PAGE_SIZE := 4096
