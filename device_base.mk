@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
 	camera.s5pc110 \
 	libs3cjpeg
 
+# Sensors
+PRODUCT_PACKAGES += \
+	sensors.s5pc110
+
 # These are the OpenMAX IL configuration files
 PRODUCT_COPY_FILES += \
 	device/samsung/p1-common/sec_mm/sec_omx/sec_omx_core/secomxregistry:system/etc/secomxregistry \
