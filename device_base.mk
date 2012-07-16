@@ -48,6 +48,10 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
 	lights.s5pc110
 
+# Sensors
+PRODUCT_PACKAGES += \
+	sensors.s5pc110
+
 # Audio
 PRODUCT_PACKAGES += \
 	audio.a2dp.default \
