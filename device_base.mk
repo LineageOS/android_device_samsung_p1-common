@@ -48,6 +48,10 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
 	lights.s5pc110
 
+# Sensors
+PRODUCT_PACKAGES += \
+	sensors.p1
+
 # Audio
 PRODUCT_PACKAGES += \
 	audio.a2dp.default \
@@ -76,6 +80,7 @@ PRODUCT_PACKAGES += \
 	libOMX.SEC.M4V.Decoder \
 	libOMX.SEC.M4V.Encoder \
 	libOMX.SEC.AVC.Encoder
+
 # Libs
 PRODUCT_PACKAGES += \
 	hwcomposer.s5pc110 \
