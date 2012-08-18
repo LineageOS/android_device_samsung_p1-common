@@ -1,6 +1,7 @@
 on init
 
 loglevel 9
+
     export EXTERNAL_STORAGE /storage/sdcard0
 
     mkdir /storage 0050 system sdcard_r
@@ -17,9 +18,8 @@ loglevel 9
 
 on fs
 
-    # using mount_all borks it, init thinks data is encrypted
-    mount ext4 /dev/block/mmcblk0p2 /data wait nosuid nodev noatime nodiratime noauto_da_alloc
-    mount_all fstab.p1
+    mount_all /fstab.p1
+
     # mount debugfs
     mount debugfs /sys/kernel/debug /sys/kernel/debug
 
@@ -92,10 +92,6 @@ on boot
     setprop ro.radio.noril yes
     setprop ro.telephony.call_ring.multiple 0
 
-    # data encryption
-    setprop ro.crypto.keyfile.userdata /data/metadata
-
-# crashes if kernel is compiled using gcc 4.6
 service p1-ril-daemon /system/bin/rild
     class core
     socket rild stream 660 root radio
