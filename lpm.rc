@@ -1,4 +1,4 @@
-import usb.rc
+import init.p1.usb.rc
 
 on early-init
     start ueventd
@@ -28,16 +28,16 @@ on early-fs
 
 
 on fs
-	mount tmpfs tmpfs /tmp
-	mount yaffs2 mtd@system /system
+    mount tmpfs tmpfs /tmp
+    mount ext4 /dev/block/mmcblk0p2 /system ro noatime nodev nomblk_io_submit errors=panic wait
 
 on boot
 
-	ifup lo
-	hostname localhost
-	domainname localdomain
+    ifup lo
+    hostname localhost
+    domainname localdomain
 
-	class_start default
+    class_start default
 
 service ueventd /sbin/ueventd
     critical
@@ -57,7 +57,7 @@ service adbd /sbin/adbd
 
 service playlpm /system/bin/playlpm
     user root
-    oneshot  
+    oneshot
 
 service lpmkey /system/bin/charging_mode
     user root
@@ -78,4 +78,3 @@ on property:persist.service.adb.enable=1
 
 on property:persist.service.adb.enable=0
     stop adbd
-
