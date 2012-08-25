@@ -5,11 +5,8 @@ on early-init
 
 on init
 
-# GyuTae FIX : we should not use system partition!!!!!
-#	export PATH /sbin:/bin
-
-    export PATH /sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
-    export LD_LIBRARY_PATH /vendor/lib:/system/lib
+    export PATH /sbin
+    export LD_LIBRARY_PATH /vendor/lib
     export ANDROID_ROOT /system
     export ANDROID_DATA /data
     export EXTERNAL_STORAGE /sdcard
@@ -22,14 +19,13 @@ on init
     mkdir /cache
     mkdir /tmp
     mkdir /mnt 0775 root root
-    #mount /tmp /tmp tmpfs   
+    #mount /tmp /tmp tmpfs
 
 on early-fs
 
 
 on fs
 	mount tmpfs tmpfs /tmp
-	mount yaffs2 mtd@system /system
 
 on boot
 
@@ -42,7 +38,7 @@ on boot
 service ueventd /sbin/ueventd
     critical
 
-service console /system/bin/sh
+service console /sbin/sh
     console
     disabled
     user shell
@@ -55,13 +51,7 @@ on property:ro.secure=0
 service adbd /sbin/adbd
     disabled
 
-service playlpm /system/bin/playlpm
-    user root
-    oneshot  
-
-service lpmkey /system/bin/charging_mode
-    user root
-    oneshot
+service battery_charger /charger
 
 # Always start adbd on userdebug and eng builds
 # In lpm mode, always run adbd as root.
@@ -78,4 +68,3 @@ on property:persist.service.adb.enable=1
 
 on property:persist.service.adb.enable=0
     stop adbd
-
