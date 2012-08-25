@@ -76,6 +76,7 @@ PRODUCT_PACKAGES += \
 	libOMX.SEC.M4V.Decoder \
 	libOMX.SEC.M4V.Encoder \
 	libOMX.SEC.AVC.Encoder
+
 # Libs
 PRODUCT_PACKAGES += \
 	hwcomposer.s5pc110 \
@@ -173,6 +174,11 @@ PRODUCT_COPY_FILES += \
 # bml_over_mtd
 PRODUCT_COPY_FILES += \
 	device/samsung/p1-common/bml_over_mtd.sh:bml_over_mtd.sh
+
+# Charger
+PRODUCT_PACKAGES += \
+	charger \
+	charger_res_image
 
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4329/device-bcm.mk)
 
