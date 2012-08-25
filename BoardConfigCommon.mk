@@ -101,6 +101,10 @@ BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/p1-common/recovery/graphics.c
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/p1-common/recovery/keys.c
 BOARD_USES_BML_OVER_MTD := true
 
+# Charging mode
+BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/charging_mode_booting
+BOARD_BATTERY_DEVICE_NAME := /sys/class/power_supply/battery/capacity
+
 # MTP
 BOARD_MTP_DEVICE := "/dev/usb_mtp_gadget"
 
