@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXX//+vI\u003d",
+        "filename": "P1Parts/res/values-de/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-09-12T03:51:46Z",
+      "side": 1,
+      "message": "Please remove all arrays with translatable\u003dfalse!",
+      "revId": "a391502880961227a9a1dda5be4cf6c78902c588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX//+vE\u003d",
+        "filename": "P1Parts/res/values-de/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-09-12T03:51:46Z",
+      "side": 1,
+      "message": "Im Deutschen solle hier ein Komma sein.",
+      "revId": "a391502880961227a9a1dda5be4cf6c78902c588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX//+vA\u003d",
+        "filename": "P1Parts/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-09-12T03:51:46Z",
+      "side": 1,
+      "message": "HSDPA/HSUPA einschalten",
+      "revId": "a391502880961227a9a1dda5be4cf6c78902c588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX//+u8\u003d",
+        "filename": "P1Parts/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-09-12T03:51:46Z",
+      "side": 1,
+      "message": "TV-Out",
+      "revId": "a391502880961227a9a1dda5be4cf6c78902c588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX//+u4\u003d",
+        "filename": "P1Parts/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-09-12T03:51:46Z",
+      "side": 1,
+      "message": "TV-System",
+      "revId": "a391502880961227a9a1dda5be4cf6c78902c588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXX//+u0\u003d",
+        "filename": "P1Parts/res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-09-12T03:51:46Z",
+      "side": 1,
+      "message": "Du kannst auch einfach ein Ä nehmen. :-)",
+      "revId": "a391502880961227a9a1dda5be4cf6c78902c588",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
