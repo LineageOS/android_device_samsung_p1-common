@@ -1268,7 +1268,7 @@ int SecCamera::getExif(unsigned char *pExifDst, unsigned char *pThumbSrc)
 
 void SecCamera::getPostViewConfig(int *width, int *height, int *size)
 {
-    if (m_preview_width == 1024) {
+    if (m_preview_width >= 1024) {
         *width = BACK_CAMERA_POSTVIEW_WIDE_WIDTH;
         *height = BACK_CAMERA_POSTVIEW_HEIGHT;
         *size = BACK_CAMERA_POSTVIEW_WIDE_WIDTH * BACK_CAMERA_POSTVIEW_HEIGHT * BACK_CAMERA_POSTVIEW_BPP / 8;
