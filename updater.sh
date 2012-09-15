@@ -29,12 +29,21 @@ if /tmp/busybox test "$1" = cdma ; then
     # CDMA mode
     IS_GSM='/tmp/busybox false'
     SD_PART='/dev/block/mmcblk1p1'
-    DATA_SIZE='490733568'
+    MTD_SIZE='490733568'
+    MTD_NAME='system'
+    MMC_NAME='data'
 else
     # GSM mode
     IS_GSM='/tmp/busybox true'
     SD_PART='/dev/block/mmcblk0p1'
-    DATA_SIZE='477626368'
+    MTD_SIZE='477626368'
+    MTD_NAME='userdata'
+    MMC_NAME='system'
+fi
+
+# Check if this is a CDMA device with no eMMC
+if ! $IS_GSM && /tmp/busybox test `cat /sys/devices/platform/s3c-sdhci.0/mmc_host/mmc0/mmc0:0001/type` != "MMC" ; then
+   SD_PART='/dev/block/mmcblk0p1'
 fi
 
 # check for old/non-cwm recovery.
@@ -86,7 +95,8 @@ if /tmp/busybox test -e /dev/block/bml7 ; then
     /sbin/reboot now
     exit 0
 
-elif /tmp/busybox test `/tmp/busybox cat /sys/class/mtd/mtd2/size` != "$DATA_SIZE" ; then
+elif /tmp/busybox test `/tmp/busybox cat /sys/class/mtd/mtd2/size` != "$MTD_SIZE" || \
+    /tmp/busybox test `/tmp/busybox cat /sys/class/mtd/mtd2/name` != "$MTD_NAME" ; then
     # we're running on a mtd (old) device
 
     # make sure sdcard is mounted
@@ -143,10 +153,6 @@ elif /tmp/busybox test -e /dev/block/mtdblock0 ; then
         # flash boot image
         /tmp/bml_over_mtd.sh boot 72 reservoir 2004 /tmp/boot.img
 
-        if ! $IS_GSM ; then
-            /tmp/bml_over_mtd.sh recovery 102 reservoir 2004 /tmp/boot.img
-        fi
-
         # unmount system (recovery seems to expect system to be unmounted)
         /tmp/busybox umount -l /system
 
@@ -160,12 +166,12 @@ elif /tmp/busybox test -e /dev/block/mtdblock0 ; then
     /tmp/busybox rm -f /sdcard/cyanogenmod.cfg
 
     # unmount and format system (recovery seems to expect system to be unmounted)
-    /tmp/busybox umount -l /system
-    /tmp/make_ext4fs -b 4096 -g 32768 -i 8192 -I 256 -a /system /dev/block/mmcblk0p2
-
     # unmount and format data
     /tmp/busybox umount -l /data
-    /tmp/erase_image userdata
+    /tmp/busybox umount -l /system
+
+    /tmp/make_ext4fs -b 4096 -g 32768 -i 8192 -I 256 -a /$MMC_NAME /dev/block/mmcblk0p2
+    /tmp/erase_image $MTD_NAME
 
     # restart into recovery so the user can install further packages before booting
     /tmp/busybox touch /cache/.startrecovery
@@ -175,9 +181,9 @@ elif /tmp/busybox test -e /dev/block/mtdblock0 ; then
         check_mount /system /dev/block/mmcblk0p2 ext4
         /tmp/busybox mkdir -p /system/vendor
         /tmp/busybox cp /tmp/modem.bin /system/vendor/modem.bin
-	/tmp/busybox mkdir -p /system/addon.d
-	/tmp/busybox cp /tmp/20-modem.sh /system/addon.d/20-modem.sh
-	/tmp/busybox chmod +x /system/addon.d/20-modem.sh
+        /tmp/busybox mkdir -p /system/addon.d
+        /tmp/busybox cp /tmp/20-modem.sh /system/addon.d/20-modem.sh
+        /tmp/busybox chmod +x /system/addon.d/20-modem.sh
         /tmp/busybox umount -l /system
 
         # restore efs backup
