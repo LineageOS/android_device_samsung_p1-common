@@ -76,9 +76,11 @@ PRODUCT_PACKAGES += \
 	libOMX.SEC.M4V.Decoder \
 	libOMX.SEC.M4V.Encoder \
 	libOMX.SEC.AVC.Encoder
+
 # Libs
 PRODUCT_PACKAGES += \
 	hwcomposer.s5pc110 \
+	power.s5pc110 \
 	libstagefrighthw
 
 # tvout
