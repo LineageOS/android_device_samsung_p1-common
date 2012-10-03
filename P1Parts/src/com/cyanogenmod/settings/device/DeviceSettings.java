@@ -32,6 +32,7 @@ import android.os.IBinder;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.MenuItem;
 
 import com.cyanogenmod.settings.device.R;
 
@@ -165,6 +166,16 @@ public class DeviceSettings extends Activity {
 
         @Override
         public void onTabReselected(Tab tab, FragmentTransaction ft) {
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case android.R.id.home:
+            DeviceSettings.this.onBackPressed();
+        default:
+            return super.onOptionsItemSelected(item);
         }
     }
 }
