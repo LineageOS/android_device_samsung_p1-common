@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
 # tvout
 PRODUCT_PACKAGES += \
 	P1Parts \
-	tvouthack
+	tvouthack \
+        hdmi.s5pc110
 
 # torch
 PRODUCT_PACKAGES += \
