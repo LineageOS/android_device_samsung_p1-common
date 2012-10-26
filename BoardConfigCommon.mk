@@ -121,5 +121,6 @@ TARGET_DISABLE_TRIPLE_BUFFERING := false
 
 BOARD_ALLOW_EGL_HIBERNATION := true
 
-# hwcomposer: custom vsync ioctl
+# hwcomposer
 BOARD_CUSTOM_VSYNC_IOCTL := true
+BOARD_HAVE_HDMI := true
