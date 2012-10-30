@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH//8uw\u003d",
+        "filename": "init.p1-common.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2012-10-30T20:24:14Z",
+      "side": 1,
+      "message": "Don\u0027t load it by default.",
+      "revId": "e9727ff1d1f91ab0fca8ef2d2fb15d51de1adbba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
