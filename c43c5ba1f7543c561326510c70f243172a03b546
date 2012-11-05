@@ -1,0 +1,10 @@
+Change-Id: Ic43c5ba1f7543c561326510c70f243172a03b546
+Code-Review+1: Pavel Volkov <marshmollow@gmail.com>
+Code-Review+2: Chirayu Desai <chirayudesai1@gmail.com>
+Verified+1: Chirayu Desai <chirayudesai1@gmail.com>
+Code-Review+1: Sergey Tikhonov <redrebel696@gmail.com>
+Submitted-by: Chirayu Desai <chirayudesai1@gmail.com>
+Submitted-at: Mon, 05 Nov 2012 06:31:55 -0800
+Reviewed-on: http://review.cyanogenmod.org/25897
+Project: CyanogenMod/android_device_samsung_p1-common
+Branch: refs/heads/jellybean
