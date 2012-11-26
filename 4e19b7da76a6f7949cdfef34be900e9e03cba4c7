@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//5+M\u003d",
+        "filename": "libcamera/SecCamera.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 492,
+      "author": {
+        "id": 805
+      },
+      "writtenOn": "2012-11-26T09:04:04Z",
+      "side": 1,
+      "message": "Can be removed",
+      "revId": "4e19b7da76a6f7949cdfef34be900e9e03cba4c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//5+I\u003d",
+        "filename": "libcamera/SecCamera.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1179,
+      "author": {
+        "id": 805
+      },
+      "writtenOn": "2012-11-26T09:04:04Z",
+      "side": 1,
+      "message": "Can be removed",
+      "revId": "4e19b7da76a6f7949cdfef34be900e9e03cba4c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
