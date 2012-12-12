@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	device/samsung/p1-common/libaudio/audio_policy.conf:system/etc/audio_policy.conf
 
+# Bluetooth
+PRODUCT_COPY_FILES += \
+	device/samsung/p1-common/prebuilt/etc/bt_vendor.conf:system/etc/bt_vendor.conf
+
 # Camera
 PRODUCT_PACKAGES += \
 	camera.s5pc110 \
