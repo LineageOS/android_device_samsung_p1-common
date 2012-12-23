@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//8Rc\u003d",
+        "filename": "releasetools.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2012-12-23T11:56:36Z",
+      "side": 1,
+      "message": "bad bad bad.",
+      "revId": "3f20b152d566a139dd217d08cde359062eb7722f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
