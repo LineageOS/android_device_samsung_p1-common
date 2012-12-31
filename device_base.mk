@@ -23,7 +23,8 @@ TARGET_SCREEN_WIDTH := 600
 
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES := \
-	device/samsung/p1-common/prebuilt/etc/asound.conf:system/etc/asound.conf
+	device/samsung/p1-common/prebuilt/etc/asound.conf:system/etc/asound.conf \
+	device/samsung/p1-common/prebuilt/etc/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # Init files
 PRODUCT_COPY_FILES += \
