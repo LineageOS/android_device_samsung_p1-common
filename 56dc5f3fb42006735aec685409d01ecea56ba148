@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//808\u003d",
+        "filename": "P1Parts/res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-04-10T03:13:29Z",
+      "side": 1,
+      "message": "Same here",
+      "revId": "56dc5f3fb42006735aec685409d01ecea56ba148",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//804\u003d",
+        "filename": "P1Parts/res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-04-10T03:13:29Z",
+      "side": 1,
+      "message": "Respuesta háptica?",
+      "revId": "56dc5f3fb42006735aec685409d01ecea56ba148",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//800\u003d",
+        "filename": "P1Parts/res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-04-10T03:13:29Z",
+      "side": 1,
+      "message": "Controla la respuesta de intensidad háptica de la vibración?",
+      "revId": "56dc5f3fb42006735aec685409d01ecea56ba148",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
