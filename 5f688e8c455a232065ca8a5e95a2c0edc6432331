@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX//+sM\u003d",
+        "filename": "P1Parts/res/values-fr/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-05-04T20:17:11Z",
+      "side": 1,
+      "message": "activée",
+      "revId": "5f688e8c455a232065ca8a5e95a2c0edc6432331",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX//+sI\u003d",
+        "filename": "P1Parts/res/values-fr/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-05-04T20:17:11Z",
+      "side": 1,
+      "message": "désactivée",
+      "revId": "5f688e8c455a232065ca8a5e95a2c0edc6432331",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX//+sg\u003d",
+        "filename": "P1Parts/res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-05-04T20:17:11Z",
+      "side": 1,
+      "message": "activée",
+      "revId": "5f688e8c455a232065ca8a5e95a2c0edc6432331",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX//+sc\u003d",
+        "filename": "P1Parts/res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-05-04T20:17:11Z",
+      "side": 1,
+      "message": "activée",
+      "revId": "5f688e8c455a232065ca8a5e95a2c0edc6432331",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX//+sU\u003d",
+        "filename": "P1Parts/res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-05-04T20:17:11Z",
+      "side": 1,
+      "message": "Temps vs Délai",
+      "revId": "5f688e8c455a232065ca8a5e95a2c0edc6432331",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX//+sQ\u003d",
+        "filename": "P1Parts/res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-05-04T20:17:11Z",
+      "side": 1,
+      "message": "Délai vs Temps. We have to choose.",
+      "revId": "5f688e8c455a232065ca8a5e95a2c0edc6432331",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
