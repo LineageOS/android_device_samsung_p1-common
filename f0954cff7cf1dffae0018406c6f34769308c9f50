@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "iECqAhs",
+        "filename": "P1Parts/res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-05-23T15:36:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iOCZFiE",
+      "revId": "f0954cff7cf1dffae0018406c6f34769308c9f50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "iMCeEgc",
         "filename": "P1Parts/res/values-hu/strings.xml",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "iCCnDlE",
+        "filename": "P1Parts/res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-05-23T15:36:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iMCeEgc",
+      "revId": "f0954cff7cf1dffae0018406c6f34769308c9f50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "iKCjHk8",
         "filename": "P1Parts/res/values-hu/strings.xml",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2013-05-23T15:12:50Z",
       "side": 1,
       "message": "dokkoló legyen itt is kis d",
+      "revId": "f0954cff7cf1dffae0018406c6f34769308c9f50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iABj6hs",
+        "filename": "P1Parts/res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-05-23T15:36:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iKCjHk8",
       "revId": "f0954cff7cf1dffae0018406c6f34769308c9f50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
