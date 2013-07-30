@@ -117,3 +117,18 @@ BOARD_ALLOW_EGL_HIBERNATION := true
 
 # hwcomposer: custom vsync ioctl
 BOARD_CUSTOM_VSYNC_IOCTL := true
+
+# SELinux
+BOARD_SEPOLICY_DIRS += \
+    device/samsung/p1-common/sepolicy
+
+BOARD_SEPOLICY_UNION += \
+    device.te \
+    domain.te \
+    file_contexts \
+    mediaserver.te \
+    property_contexts \
+    pvrsrvinit.te \
+    rild.te \
+    tvouthack.te \
+    tvoutserver.te
