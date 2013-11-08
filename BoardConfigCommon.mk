@@ -123,3 +123,5 @@ BOARD_HARDWARE_CLASS := device/samsung/p1-common/cmhw/
 
 # Dalvik startup with a low memory footprint
 TARGET_ARCH_LOWMEM := true
+
+BOARD_PROVIDES_LIBRIL := true
