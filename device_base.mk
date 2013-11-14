@@ -177,6 +177,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
+# Enable Low Ram Device flag
+# This is used by ActivityManager.isLowRamDevice()
+PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
+
 # dalvik
 include frameworks/native/build/phone-hdpi-512-dalvik-heap.mk
 
