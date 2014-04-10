@@ -34,7 +34,7 @@
   <string name="category_buttons_title">Tlačidlá</string>
   <string name="category_capacitive_buttons_title">Kapacitné tlačidlá</string>
   <string name="capacitive_buttons_title">Zakázať kapacitné tlačidlá</string>
-  <string name="capacitive_buttons_summary">Zakázať svetlá hardvérových kapacitných tlačidiel a dotyky (vrátane oznámení)</string>
+  <string name="capacitive_buttons_summary">Zakázať podsvietenie a dotyky pre kapacitné tlačidlá (vrátane oznámení)</string>
   <string name="backlight_timeout_title_head">Časový limit podsvietenia</string>
   <string name="backlight_timeout_summary_head">Nastaviť oneskorenie pred automatickým vypnutím podsvietenia dotykových kláves</string>
   <string name="category_speed_title">Rýchlosť</string>
