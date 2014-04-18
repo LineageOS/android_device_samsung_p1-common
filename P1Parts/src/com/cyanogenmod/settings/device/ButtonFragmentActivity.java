@@ -46,10 +46,6 @@ public class ButtonFragmentActivity extends PreferenceFragment {
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
-        mDisableButtons = (CheckBoxPreference) findPreference(DeviceSettings.KEY_BUTTONS_DISABLE);
-        mDisableButtons.setEnabled(ToggleCapacitiveKeys.isSupported());
-        mDisableButtons.setOnPreferenceChangeListener(new ToggleCapacitiveKeys());
-
         mBacklightTimeout = (ListPreference) findPreference(DeviceSettings.KEY_BACKLIGHT_TIMEOUT);
         mBacklightTimeout.setEnabled(TouchKeyBacklightTimeout.isSupported());
         mBacklightTimeout.setOnPreferenceChangeListener(new TouchKeyBacklightTimeout());
