@@ -21,11 +21,17 @@
   <string name="hspa_title_head">HSPA</string>
   <string name="hspa_summary_head">Habilitar HSDPA/HSUPA</string>
   <string name="category_tvout_title">TV</string>
+  <string name="tvout_enable_head">Salida TV</string>
+  <string name="tvout_enable_summary_nocable">Cable de salida TV non coneutáu</string>
+  <string name="tvout_enable_summary">Cable de salida TV coneutáu, calca p\'activar</string>
+  <string name="tvout_enable_summary_on">Salida TV activada</string>
   <string name="tvout_system_head">Sistema de TV</string>
+  <string name="tvout_system_summary">Axusta\'l to sistema TV pa la salida de TV</string>
   <string name="hdmi_dock_summary_nodock">Coneutor HDMI non coneutáu</string>
   <string name="hdmi_dock_summary">Coneutor HDMI coneutáu, calca p\'activalu</string>
   <string name="hdmi_dock_summary_on">Coneutor HDMI activáu</string>
   <string name="hdmi_dock_head">Coneutor HDMI</string>
+  <string name="category_buttons_title">Botones</string>
   <string name="category_capacitive_buttons_title">Botones capacitivos</string>
   <string name="capacitive_buttons_title">Deshabilitar los botones capacitivos</string>
   <string name="capacitive_buttons_summary">Deshabilitar la illuminación y les pulsaciones de los botones capacitivos (incluyendo notificaciones)</string>
@@ -33,4 +39,8 @@
   <string name="backlight_timeout_summary_head">Axustar el tiempu enantes de que s\'apague automáticamente la retroilluminación de les tecles táctiles</string>
   <string name="category_speed_title">Velocidá</string>
   <string name="touchscreen_clock_title">Velocidá del reló de la pantalla táctil</string>
+  <string name="generic_warning_title">Avisu</string>
+  <string name="imei_not_sane_title">Avisu!</string>
+  <string name="imei_not_sane_message">Deteutóse un fallu nel to preséu. El númberu IMEI del to preséu nun ye válidu. Un númberu IMEI inválidu pue causar problemes de rede, incluyendo la imposibilidá de facer llamaes a númberos d\'emerxencia.</string>
+  <string name="imei_not_sane_ok">Aceutar</string>
 </resources>

@@ -17,20 +17,20 @@
 -->
 <resources>
   <string-array name="hspa_entries">
-    <item>Només UMTS</item>
-    <item>Només HSDPA</item>
+    <item>Само UMTS</item>
+    <item>Само HSDPA</item>
     <item>HSDPA + HSUPA</item>
   </string-array>
   <string-array name="backlight_timeout_entries">
-    <item>Sempre encés</item>
-    <item>Sempre apagat</item>
-    <item>0,5 segons</item>
-    <item>1.6 segons</item>
-    <item>2 segons</item>
-    <item>5 segons</item>
-    <item>10 segons</item>
-    <item>15 segons</item>
-    <item>30 segons</item>
+    <item>Увек укључено</item>
+    <item>Увек искључено</item>
+    <item>0.5 секунде</item>
+    <item>1.6 секунде</item>
+    <item>2 секунде</item>
+    <item>5 секунди</item>
+    <item>10 секунди</item>
+    <item>15 секунди</item>
+    <item>30 секунди</item>
   </string-array>
   <string-array name="touchscreen_clock_entries">
     <item>400 Mhz</item>

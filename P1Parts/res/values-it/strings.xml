@@ -42,4 +42,5 @@
   <string name="generic_warning_title">Attenzione</string>
   <string name="imei_not_sane_title">Attenzione!</string>
   <string name="imei_not_sane_message">E\' stato rilevato un problema con il tuo dispositivo. Il numero IMEI non è valido. Un numero IMEI non valido potrebbe causare problemi di rete, tra i quali l\'impossibilità di chiamare numeri di emergenza.</string>
+  <string name="imei_not_sane_ok">OK</string>
 </resources>
