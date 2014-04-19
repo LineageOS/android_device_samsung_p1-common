@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7af24918_ac55811e",
+        "filename": "cmhw/org/cyanogenmod/hardware/KeyDisabler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-04-19T12:36:35Z",
+      "side": 1,
+      "message": "Fix white space errors",
+      "revId": "43dd681863a1495e767701d92bb26fda59c582f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
