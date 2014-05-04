@@ -41,6 +41,6 @@
   <string name="touchscreen_clock_title">Брзина сата екрана</string>
   <string name="generic_warning_title">Упозорење</string>
   <string name="imei_not_sane_title">Упозорење!</string>
-  <string name="imei_not_sane_message">Проблем је детектован са уређајем. Ваш IMEI број уређаја је неважећи.Неважећи IMEI  број може изазвати мрежне проблеме, укључујући немогућност да позовете бројеве за хитне случајеве.</string>
+  <string name="imei_not_sane_message">Проблем је детектован са уређајем.Ваш IMEI број уређаја је неважећи.Неважећи IMEI број може изазвати мрежне проблеме, укључујући немогућност да позовете бројеве за хитне случајеве.</string>
   <string name="imei_not_sane_ok">OK</string>
 </resources>
