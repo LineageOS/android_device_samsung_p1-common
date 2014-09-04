@@ -1,5 +1,6 @@
 package android.hardware;
 
+import java.io.File;
 import java.lang.ref.WeakReference;
 
 import android.graphics.Bitmap;
@@ -57,6 +58,13 @@ public class TvOut {
     public native boolean _SetTvoutHdmiStatus(int paramInt);
     public native boolean _isHdmiDualEnabled();
     public native void _SetTvoutHdmiDualStatus(int paramInt);
+
+    private static final String FILE = "/system/bin/tvouthack";
+
+    public static boolean isSupported() {
+        return new File(FILE).exists();
+    }
+
 
     static {
         System.loadLibrary("tvout_jni");

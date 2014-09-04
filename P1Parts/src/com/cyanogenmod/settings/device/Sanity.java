@@ -8,8 +8,7 @@ import android.util.Log;
 public class Sanity {
     private static final String TAG = "P1Parts";
     private static final String BAD_IMEI[] = {
-        "004999010640000",
-        "000000000000000"
+        "004999010640000"
     };
 
     public static void check(Context context) {
