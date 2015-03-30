@@ -31,6 +31,6 @@
   <string name="button_reset_title">Zrécksetzen</string>
   <string name="generic_warning_title">Warnung</string>
   <string name="imei_not_sane_title">Warnung!</string>
-  <string name="imei_not_sane_message">E Problem mat dengem Apparat gouf detektéiert. Deng IMEI-Nummer ass net gëlteg. Eng ongëlteg IMEI-Nummer kann zu Netzwierkproblemer féieren an ënner anerem d\'Uruffe vun Noutruffnummeren verhënneren.</string>
+  <string name="imei_not_sane_message">E Problem mat dengem Apparat gouf detektéiert. Deng IMEI-Nummer ass net gëlteg. Eng ongëlteg IMEI-Nummer kann zu Netzwierkproblemer féieren an ënner anerem d\'Uruffe vun Noutruffnummere verhënneren.</string>
   <string name="imei_not_sane_ok">OK</string>
 </resources>
