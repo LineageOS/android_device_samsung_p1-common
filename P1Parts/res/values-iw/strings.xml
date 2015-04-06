@@ -25,7 +25,7 @@
   <string name="tvout_system_head">שיטת שידור</string>
   <string name="tvout_system_summary">בחר את שיטת השידור לטלוויזיה</string>
   <string name="hdmi_dock_summary_nodock">חיבור HDMI לא פעיל</string>
-  <string name="hdmi_dock_summary">חיבור HDMI פעיל, בדוק כדי לאפשר</string>
+  <string name="hdmi_dock_summary">חיבור HDMI פעיל, סמן כדי לאפשר</string>
   <string name="hdmi_dock_summary_on">חיבור HDMI פעיל</string>
   <string name="hdmi_dock_head">חיבור HDMI</string>
   <string name="button_reset_title">אתחל</string>
