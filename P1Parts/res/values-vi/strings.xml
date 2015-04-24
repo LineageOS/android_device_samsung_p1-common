@@ -17,4 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Cài đặt nâng cao</string>
+  <string name="category_tvout_title">TV Out</string>
+  <string name="tvout_enable_head">TV Out</string>
+  <string name="tvout_enable_summary_nocable">Cáp TV Out chưa được kết nối</string>
+  <string name="tvout_enable_summary">Cáp TV Out đã kết nối, chọn để bật</string>
+  <string name="tvout_system_head">Hệ thống TV</string>
+  <string name="hdmi_dock_summary">Đã kết nối HDMI, chọn để bật</string>
+  <string name="hdmi_dock_head">HDMI Dock</string>
 </resources>
