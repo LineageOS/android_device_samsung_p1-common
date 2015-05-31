@@ -16,5 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Ezarpen aurreratuak</string>
+  <string name="category_tvout_title">TB irteera</string>
+  <string name="tvout_enable_head">TB irteera</string>
+  <string name="tvout_enable_summary_nocable">TB irteerarako kablea ez dago konektatuta</string>
+  <string name="tvout_enable_summary">TB irteerarako kablea konektatua, sakatu gaitzeko</string>
+  <string name="tvout_enable_summary_on">TB irteera gaituta</string>
+  <string name="tvout_system_head">TB sistema</string>
+  <string name="tvout_system_summary">Ezarri zure TB sistema TB irteerarako</string>
+  <string name="hdmi_dock_summary_nodock">HDMI oinarria ez dago konektatuta</string>
+  <string name="hdmi_dock_summary">HDMI oinarria konektatuta, markatu gaitzeko</string>
+  <string name="hdmi_dock_summary_on">HDMI oinarria gaitu da</string>
+  <string name="hdmi_dock_head">HDMI oinarria</string>
+  <string name="button_reset_title">Leheneratu</string>
+  <string name="generic_warning_title">Kontuz</string>
+  <string name="imei_not_sane_title">Kontuz!</string>
+  <string name="imei_not_sane_message">Arazo bat antzeman da zure gailuan. Gailuaren IMEI zenbakia baliogabea da. IMEI zenbaki baliogabe batek sare arazoak sor ditzake, larrialdi deirik ezin egitea barne.</string>
   <string name="imei_not_sane_ok">Ados</string>
 </resources>
