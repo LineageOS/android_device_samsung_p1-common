@@ -17,5 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">تنظیمات پیشرفته</string>
+  <string name="button_reset_title">تنظیم مجدد</string>
   <string name="imei_not_sane_ok">بسیارخب</string>
 </resources>
